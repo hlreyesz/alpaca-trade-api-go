@@ -133,8 +133,8 @@ type Bar struct {
 
 type ListBarParams struct {
 	Timeframe string     `url:"timeframe,omitempty"`
-	StartDt   *time.Time `url:"start_dt,omitempty"`
-	EndDt     *time.Time `url:"end_dt,omitempty"`
+	StartDt   *time.Time `url:"start,omitempty"`
+	EndDt     *time.Time `url:"end,omitempty"`
 	Limit     *int       `url:"limit,omitempty"`
 }
 
